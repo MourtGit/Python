@@ -3,4 +3,4 @@
 
 weight_lbs = float(input("Enter weight in pounds (lbs): "))
 weight_kg = round(weight_lbs/2.2, 3)
-print (f"Your body weight is: {weight_lbs} lbs, and the equivalent in kg is: {weight_kg}.\nThank you")
+print (f"Your body weight is: {weight_lbs} lbs, and the equivalent in kg is: {weight_kg} kg.\nThank you")
