@@ -3,7 +3,7 @@ if the number is a multiple of 5 then print BAR, and if the number is a multiple
 then print FOOBAR, otherwise just print the number.'''
 
 for i in range(1, 16):
-    if i % 3 == 0 and i % 5 == 0:
+    if i % 3 == 0 and i % 5 == 0: # here the order matters
         print("FOOBAR")
     elif i % 3 == 0:
         print("FOO")
